@@ -18,8 +18,8 @@
 	NSLog(@"decodeBase64Str=%@", decodeBase64Str);
 	
 	/** Email **/
-	NSString *emailStr = @"chenjm2@poco.cn";
-	NSString *noEmailStr = @"chenjm";
+	NSString *emailStr = @"LZQ@qq.cn";
+	NSString *noEmailStr = @"LZQ";
 	
 	NSLog(@"======= Email ======");
 	NSLog(@"emailStr is Email: %@", [emailStr sl_isEmail] ? @"YES" : @"NO");
@@ -29,7 +29,7 @@
 	NSDictionary *dic = @{@"name": @"chenjm",
 						  @"id": @"Programmer",
 						  @"Type":@"ios",
-						  @"email":@"chenjm2@poco.cn"};
+						  @"email":@"LZQ@qq.cn"};
 	
 	NSString *compactJsonStr = [NSString sl_stringWithJsonObject:dic isCompact:YES];
 	NSString *noCompactJsonStr = [NSString sl_stringWithJsonObject:dic isCompact:NO];
